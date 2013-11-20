@@ -24,8 +24,17 @@
      "style.type = 'text/css';"
      "style.textContent = str_css;"
      "document.getElementsByTagName('HEAD').item(0).appendChild(style);"];
-
-
+    
+    
+    [sender stringByEvaluatingJavaScriptFromString:@"var script = document.createElement('script');"
+     "script.type = 'text/javascript';"
+     "script.text = \"function myFunction() { "
+        "var plugNo=document.getElementById('player');"
+    // "plugNo.innerHTML='缺少插件'"
+     "plugNo.innerHTML='<a href=http://www.telestream.net/flip4mac-wmv/en-US/play-wmv-in-safari.htm>需要安装Flip4Mac</a>'"
+     "}\";"
+     "document.getElementsByTagName('head')[0].appendChild(script);"];
+    [sender stringByEvaluatingJavaScriptFromString:@"window.onload=function(){myFunction();}"];
 
 }
 

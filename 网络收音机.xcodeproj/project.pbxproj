@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B946389C183CA36C0008EB54 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = B946389B183CA36C0008EB54 /* radio.png */; };
+		B946389E183CA6C10008EB54 /* radio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B946389D183CA6C10008EB54 /* radio@2x.png */; };
 		B996CDEB183C585E004F7FEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996CDEA183C585E004F7FEE /* Cocoa.framework */; };
 		B996CDF5183C585E004F7FEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B996CDF3183C585E004F7FEE /* InfoPlist.strings */; };
 		B996CDF7183C585E004F7FEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B996CDF6183C585E004F7FEE /* main.m */; };
@@ -20,6 +22,7 @@
 		B996CE15183C585E004F7FEE /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B996CE14183C585E004F7FEE /* _____Tests.m */; };
 		B996CE1F183C5FCB004F7FEE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996CE1E183C5FCB004F7FEE /* WebKit.framework */; };
 		B996CE25183C6042004F7FEE /* WebViewRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = B996CE24183C6042004F7FEE /* WebViewRadio.m */; };
+		B9F374CB183C8DFE00AE7A3F /* radio.icns in Resources */ = {isa = PBXBuildFile; fileRef = B9F374CA183C8DFE00AE7A3F /* radio.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B946389B183CA36C0008EB54 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		B946389D183CA6C10008EB54 /* radio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio@2x.png"; sourceTree = "<group>"; };
 		B996CDE7183C585E004F7FEE /* 网络收音机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网络收音机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B996CDEA183C585E004F7FEE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B996CDED183C585E004F7FEE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -55,6 +60,7 @@
 		B996CE1E183C5FCB004F7FEE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		B996CE23183C6042004F7FEE /* WebViewRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewRadio.h; sourceTree = "<group>"; };
 		B996CE24183C6042004F7FEE /* WebViewRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewRadio.m; sourceTree = "<group>"; };
+		B9F374CA183C8DFE00AE7A3F /* radio.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = radio.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		B996CDDE183C585E004F7FEE = {
 			isa = PBXGroup;
 			children = (
+				B9F374CA183C8DFE00AE7A3F /* radio.icns */,
 				B996CDF0183C585E004F7FEE /* 网络收音机 */,
 				B996CE0E183C585E004F7FEE /* 网络收音机Tests */,
 				B996CDE9183C585E004F7FEE /* Frameworks */,
@@ -124,11 +131,11 @@
 			children = (
 				B996CDFC183C585E004F7FEE /* Down_hkAppDelegate.h */,
 				B996CDFD183C585E004F7FEE /* Down_hkAppDelegate.m */,
+				B996CE23183C6042004F7FEE /* WebViewRadio.h */,
+				B996CE24183C6042004F7FEE /* WebViewRadio.m */,
 				B996CDFF183C585E004F7FEE /* MainMenu.xib */,
 				B996CE02183C585E004F7FEE /* Images.xcassets */,
 				B996CDF1183C585E004F7FEE /* Supporting Files */,
-				B996CE23183C6042004F7FEE /* WebViewRadio.h */,
-				B996CE24183C6042004F7FEE /* WebViewRadio.m */,
 			);
 			path = "网络收音机";
 			sourceTree = "<group>";
@@ -136,6 +143,8 @@
 		B996CDF1183C585E004F7FEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B946389D183CA6C10008EB54 /* radio@2x.png */,
+				B946389B183CA36C0008EB54 /* radio.png */,
 				B996CDF2183C585E004F7FEE /* 网络收音机-Info.plist */,
 				B996CDF3183C585E004F7FEE /* InfoPlist.strings */,
 				B996CDF6183C585E004F7FEE /* main.m */,
@@ -240,7 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F374CB183C8DFE00AE7A3F /* radio.icns in Resources */,
+				B946389C183CA36C0008EB54 /* radio.png in Resources */,
 				B996CDF5183C585E004F7FEE /* InfoPlist.strings in Resources */,
+				B946389E183CA6C10008EB54 /* radio@2x.png in Resources */,
 				B996CE03183C585E004F7FEE /* Images.xcassets in Resources */,
 				B996CDFB183C585E004F7FEE /* Credits.rtf in Resources */,
 				B996CE01183C585E004F7FEE /* MainMenu.xib in Resources */,
@@ -393,7 +405,6 @@
 		B996CE19183C585E004F7FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "网络收音机/网络收音机-Prefix.pch";
@@ -406,7 +417,6 @@
 		B996CE1A183C585E004F7FEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "网络收音机/网络收音机-Prefix.pch";
