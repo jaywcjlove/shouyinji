@@ -18,6 +18,8 @@
 		B996CE0B183C585E004F7FEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996CDEA183C585E004F7FEE /* Cocoa.framework */; };
 		B996CE13183C585E004F7FEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B996CE11183C585E004F7FEE /* InfoPlist.strings */; };
 		B996CE15183C585E004F7FEE /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B996CE14183C585E004F7FEE /* _____Tests.m */; };
+		B996CE1F183C5FCB004F7FEE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996CE1E183C5FCB004F7FEE /* WebKit.framework */; };
+		B996CE25183C6042004F7FEE /* WebViewRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = B996CE24183C6042004F7FEE /* WebViewRadio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		B996CE10183C585E004F7FEE /* 网络收音机Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "网络收音机Tests-Info.plist"; sourceTree = "<group>"; };
 		B996CE12183C585E004F7FEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B996CE14183C585E004F7FEE /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		B996CE1E183C5FCB004F7FEE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B996CE23183C6042004F7FEE /* WebViewRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewRadio.h; sourceTree = "<group>"; };
+		B996CE24183C6042004F7FEE /* WebViewRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewRadio.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B996CE1F183C5FCB004F7FEE /* WebKit.framework in Frameworks */,
 				B996CDEB183C585E004F7FEE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +101,7 @@
 		B996CDE9183C585E004F7FEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B996CE1E183C5FCB004F7FEE /* WebKit.framework */,
 				B996CDEA183C585E004F7FEE /* Cocoa.framework */,
 				B996CE09183C585E004F7FEE /* XCTest.framework */,
 				B996CDEC183C585E004F7FEE /* Other Frameworks */,
@@ -120,6 +127,8 @@
 				B996CDFF183C585E004F7FEE /* MainMenu.xib */,
 				B996CE02183C585E004F7FEE /* Images.xcassets */,
 				B996CDF1183C585E004F7FEE /* Supporting Files */,
+				B996CE23183C6042004F7FEE /* WebViewRadio.h */,
+				B996CE24183C6042004F7FEE /* WebViewRadio.m */,
 			);
 			path = "网络收音机";
 			sourceTree = "<group>";
@@ -253,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B996CE25183C6042004F7FEE /* WebViewRadio.m in Sources */,
 				B996CDF7183C585E004F7FEE /* main.m in Sources */,
 				B996CDFE183C585E004F7FEE /* Down_hkAppDelegate.m in Sources */,
 			);
@@ -465,6 +475,7 @@
 				B996CE1A183C585E004F7FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B996CE1B183C585E004F7FEE /* Build configuration list for PBXNativeTarget "网络收音机Tests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +484,7 @@
 				B996CE1D183C585E004F7FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
