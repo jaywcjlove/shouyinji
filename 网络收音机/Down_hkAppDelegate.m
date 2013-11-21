@@ -22,6 +22,7 @@
     [_window setDelegate:self];
     
     [[_window standardWindowButton:NSWindowZoomButton] setHidden:YES];
+    //[[_window standardWindowButton:NSWindowCloseButton] setHidden:YES];
     //[[_window standardWindowButton:NSWindowMiniaturizeButton] setHidden:YES];
     
     
